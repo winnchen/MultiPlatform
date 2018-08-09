@@ -1,0 +1,19 @@
+{
+  "name": "multiplatform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_h5": "webpack --mode production --env.PLATFORM h5",
+    "build_wx": "webpack --mode production --env.PLATFORM wx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
